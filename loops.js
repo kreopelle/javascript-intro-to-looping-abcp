@@ -5,5 +5,8 @@ array.push(`I am ${i} strange loop${i === 1 ? ' ' : 's'}.`);
   }
   
 function whileLoop(n) {
-  
+  while (n > 0) {
+    console.log(--n);
+  }
+  console.log("done");
 }
